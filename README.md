@@ -79,7 +79,7 @@ summarizer.py
 
               
 
-**步骤 3：推送飞书（可选）** 
+**步骤 3：推送飞书（可选）**  
 run: python feishu_sender.py --latest       
 feishu_sender.py                             
    ↓ 读取 summaries/summary_*.md             
