@@ -8,10 +8,10 @@ Feishu (飞书) Message Sender Configuration
 # 应用凭证
 # ============================================
 # APP ID
-APP_ID = "cli_a91abb05e7789bcc" # 在这里填写你的APP_ID
+APP_ID = "#" # 在这里填写你的APP_ID
 
 # APP Secret
-APP_SECRET = "I8m8GLzYnaZsC1dyFMpyofRRyrfIv0BM" # 在这里填写你的APP_SECRET
+APP_SECRET = "#" # 在这里填写你的APP_SECRET
 
 # ============================================
 # 接收者配置
@@ -20,7 +20,7 @@ APP_SECRET = "I8m8GLzYnaZsC1dyFMpyofRRyrfIv0BM" # 在这里填写你的APP_SECRE
 RECEIVE_ID_TYPE = "chat_id"
 
 # 群聊ID（当发送给群聊时）
-CHAT_ID = "oc_951aab32a7a6f99ab00e3ad5bf277831" # 访问该网址后可得：https://open.feishu.cn/api-explorer/cli_a91abb05e7789bcc?apiName=list&project=im&resource=chat&version=v1
+CHAT_ID = "#" # 访问该网址后可得：https://open.feishu.cn/api-explorer/cli_a91abb05e7789bcc?apiName=list&project=im&resource=chat&version=v1
 
 # ============================================
 # API 配置
