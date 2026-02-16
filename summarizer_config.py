@@ -16,10 +16,10 @@ AI总结的配置文件
 API_BASE_URL = "https://api.minimaxi.com/v1"
 
 # API 密钥
-API_KEY = "sk-api-zCPJz5uhG1Y55CA5ErjmDxGCA1SW1aUcBOWzIh4bmmYP0GktE14kk_t0AO-mpDiCKXRLz-mBIdOAdHSv1N-xmtHQJzoLTdKGMIaxqCz_qydGYAoYIJJQFqQ"  # 这里填写你自己的秘钥
+API_KEY = "#"  # 这里填写你自己的秘钥
 
 # 模型名称
-MODEL = "abab6.5s-chat"
+MODEL = "#"
 
 # ============================================
 # 系统提示词
