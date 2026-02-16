@@ -7,7 +7,7 @@ Twitter AI News Monitor - Configuration
 # ============================================
 # API 配置
 # ============================================
-TWITTER_API_KEY = "new1_419760df9da043bebe6e4fcdda76e3e2"  # 在这里填入你的API密钥
+TWITTER_API_KEY = "#"  # 在这里填入你的API密钥
 
 API_BASE_URL = "https://api.twitterapi.io"
 
