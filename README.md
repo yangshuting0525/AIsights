@@ -50,14 +50,15 @@ python feishu_sender.py --latest
 
 ## 流程
 
-步骤 0：配置阶段
-  ① 编辑 config.py                             
-  ② 编辑 summarizer_config.py                  
-  ③ 编辑 feishu_config.py   
+**步骤 0：配置阶段**
+包含以下三个文件：
+① 编辑 config.py                             
+② 编辑 summarizer_config.py                  
+③ 编辑 feishu_config.py   
 
 
 
-步骤 1：数据收集  
+**步骤 1：数据收集** 
 运行：python twitter_monitor.py --once   
 twitter_monitor.py                           
    ↓ 调用 Twitter API                         
@@ -69,7 +70,7 @@ twitter_monitor.py
 
               
 
-步骤 2：AI 总结   
+**步骤 2：AI 总结**  
 运行：python summarizer.py                                                         
 summarizer.py                                
    ↓ 读取 tweets_*.json                       
@@ -79,7 +80,7 @@ summarizer.py
 
               
 
-步骤 3：推送飞书                              
+**步骤 3：推送飞书（可选）**   
 运行：python feishu_sender.py --latest       
 feishu_sender.py                             
    ↓ 读取 summaries/summary_*.md             
