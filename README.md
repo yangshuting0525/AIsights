@@ -51,9 +51,9 @@ python feishu_sender.py --latest
 ## 流程
 
 **步骤 0：配置阶段**
-↓ 编辑 config.py                             
-↓ 编辑 summarizer_config.py                  
-↓ 编辑 feishu_config.py   
+* config.py
+* summarizer_config.py
+* feishu_config.py   
 
 
 
